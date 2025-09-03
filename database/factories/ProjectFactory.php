@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
  */
 class ProjectFactory extends Factory
 {
+    
     /**
      * Define the model's default state.
      *
@@ -26,6 +27,7 @@ class ProjectFactory extends Factory
             'updated_by' => 1,
             'created_at' => time(),
             'updated_at' => time(),
+
         ];
     }
 }
